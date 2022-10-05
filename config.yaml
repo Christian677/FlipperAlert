@@ -16,6 +16,9 @@ request_number: 5
 
 #per ora funziona solo flipper zero
 website: "https://shop.flipperzero.one/"
+# PER STARTARE IL BOT:
+# Se lo vuoi startare all infinito, avvia semplicemente universal.py e assicurati che website contenga un link.
+# Se lo vuoi startare per x richieste, inserisci oltre al link il request_number e avvia customRequest.py
 
 
 # Ricorda di salvare qualsiasi modifica con CTRL + C

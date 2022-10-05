@@ -21,7 +21,7 @@ while True:
 
     if choise == "https://shop.flipperzero.one/":
         soldOut = browser.find_element(By.XPATH, "/html/body/div[3]/main/div[2]/div/div/div[2]/div/div[1]/div[1]/dl/div[1]/div[3]/span[2]/span").text
-        sito = "[SITO]"
+        sito = "[SITO FLIPPER]"
     elif choise == "https://lab401.com/products/flipper-zero?_pos=6&_sid=2bdd63fb5&_ss=r&variant=42927883452646":
         soldOut = browser.find_element(By.CSS_SELECTOR, "#addToCartText-product-template") 
         sito = "[lab401]"
