@@ -1,0 +1,21 @@
+author: Christian67
+
+# Se non vuoi impostare x richieste e continuare all infinito, avvia main.py
+# Si usa officialsite.py per effettuare richieste dinamiche
+
+# Impostare qui il valore delle richieste da effettuare al sito.
+# ES: se imposti 5, verranno effettuato 5 richieste.
+# RICORDA SEMPRE DI SALVARE IL FILE MANUALMENTE: CTRL + S
+
+request_number: 5
+
+# inserire il sito web da cui recuperare i dati. Uno dei due qui sotto:
+
+#   https://lab401.com/products/flipper-zero?_pos=6&_sid=2bdd63fb5&_ss=r&variant=42927883452646
+#   https://shop.flipperzero.one/
+
+#per ora funziona solo flipper zero
+website: "https://shop.flipperzero.one/"
+
+
+# Ricorda di salvare qualsiasi modifica con CTRL + C
